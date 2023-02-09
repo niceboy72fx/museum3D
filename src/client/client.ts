@@ -585,9 +585,9 @@ const nameFrameLoaderRoom1 = new OBJLoader().load(frameNormalPath,(obj) => {
 
 const image1Room1 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
     map: new TextureLoader().load('object/picture/room1/1.Bản đồ_sông Euphrates & sông Tigris.jpg'),
-    side :  backside
 }))
 image1Room1.scale.set(1.6,1.6,50)
+image1Room1.rotateY(Math.PI)
 image1Room1.position.set(21.5,2.2,13)
 scene.add(image1Room1)
 
@@ -630,16 +630,34 @@ scene.add(image5Room1)
 const image6Room1 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
     map: new TextureLoader().load('object/picture/room1/6.Số học.jpg'),
 }))
-image6Room1.scale.set(3.9,3.2,50)
-image4Room1.rotateY(Math.PI * 2)
-image6Room1.position.set(17.3,2.6,15.8)
+image6Room1.scale.set(2.9,2.2,50)
+image6Room1.position.set(16.3,2.6,8.5)
 scene.add(image6Room1)
 
-const image7Room1 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image7Room1 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room1/7.Chữ tượng hình của Ai Cập cổ đại.jpg'),
+}))
+image7Room1.scale.set(2.9,2.2,50)
+image7Room1.position.set(11.3,2.6,8.5)
+scene.add(image7Room1)
 
-const image8Room1 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image8Room1 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room1/8.Thành tựu khoa học của người Ai Cập cổ đại.jpg'),
+    side :  backside
+}))
+image8Room1.scale.set(1.9,1.2,50)
+image8Room1.rotateY(Math.PI *2)
+image8Room1.position.set(9.3,2.6,17.8)
+scene.add(image8Room1)
 
-const image9Room1 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image9Room1 =  new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room1/9.Tượng Xphanh (Nhân sư).jpg'),
+    side :  backside
+}))
+image9Room1.scale.set(1.9,1.2,50)
+image9Room1.rotateY(Math.PI *2)
+image9Room1.position.set(11.3,2.6,17.8)
+scene.add(image8Room1)
 
 const image10Room1 = new OBJLoader().load(blackFramePath,(obj) => {})
 
