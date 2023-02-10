@@ -645,25 +645,43 @@ const image8Room1 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
     map: new TextureLoader().load('object/picture/room1/8.Thành tựu khoa học của người Ai Cập cổ đại.jpg'),
     side :  backside
 }))
-image8Room1.scale.set(1.9,1.2,50)
+image8Room1.scale.set(2.4,1.8,50)
 image8Room1.rotateY(Math.PI *2)
-image8Room1.position.set(9.3,2.6,17.8)
+image8Room1.position.set(9.8,2.6,17.8)
 scene.add(image8Room1)
 
 const image9Room1 =  new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
     map: new TextureLoader().load('object/picture/room1/9.Tượng Xphanh (Nhân sư).jpg'),
     side :  backside
 }))
-image9Room1.scale.set(1.9,1.2,50)
+image9Room1.scale.set(2.4,1.8,50)
 image9Room1.rotateY(Math.PI *2)
-image9Room1.position.set(11.3,2.6,17.8)
-scene.add(image8Room1)
+image9Room1.position.set(12.6,2.6,17.8)
+scene.add(image9Room1)
 
-const image10Room1 = new OBJLoader().load(blackFramePath,(obj) => {})
+// const image10Room1 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+//     map: new TextureLoader().load('object/picture/room1/10.Hình ảnh một đấu sỹ đấu lợn rừng.jpg'),
+// }))
+// image10Room1.scale.set(3.9,3.2,50)
+// image10Room1.rotateY(Math.PI / 2)
+// image10Room1.position.set(14.5,2.6,20.1)
+// scene.add(image10Room1)
 
-const image11Room1 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image11Room1 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room1/11.Việc đo đạc của người Ai Cập.jpg'),
+}))
+image11Room1.scale.set(2.4,1.8,50)
+image11Room1.rotateY(Math.PI / 2)
+image11Room1.position.set(8.3,2.6,15.2)
+scene.add(image11Room1)
 
-const image12Room1 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image12Room1 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room1/12.Điều kiện tự nhiên.jpg'),
+}))
+image12Room1.scale.set(2.4,1.8,50)
+image12Room1.rotateY(Math.PI / 2)
+image12Room1.position.set(8.3,2.6,10.6)
+scene.add(image12Room1)
 
 
 //===============================================Room2============================================
@@ -674,23 +692,81 @@ const nameFrameLoaderRoom2 = new OBJLoader().load(frameNormalPath,(obj) => {
     scene.add(obj)
 }); 
 
-const image1Room2 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image1Room2 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room2/1.Lược đồ Ấn Độ cổ đại.jpg'),
+}))
+image1Room2.scale.set(1.6,1.6,50)
+image1Room2.rotateY(Math.PI)
+image1Room2.position.set(6.5,2.2,13)
+scene.add(image1Room2)
 
-const image2Room2 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image2Room2 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room2/2. Chữ San - krít trên lá cọ.jpg'),
+    side :  backside
+}))
+image2Room2.scale.set(1.7,1.2,50)
+image2Room2.rotateY(Math.PI / 2)
+image2Room2.position.set(5.15,2.2,14.6)
+scene.add(image2Room2)
 
-const image3Room2 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image3Room2 =  new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room2/3. 7 nhà tư tưởng vĩ đại nhất Trung Quốc thời kỳ cổ đại.jpg'),
+    side :  backside
+}))
+image3Room2.scale.set(1.9,1.2,50)
+image3Room2.rotateY(Math.PI / 2)
+image3Room2.position.set(5.15,2.2,17.6)
+scene.add(image3Room2)
 
-const image4Room2 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image4Room2 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room2/4.Văn học, nghệ thuật Ấn Độ cổ đại.jpg'),
+    side :  backside
+}))
+image4Room2.scale.set(1.9,1.2,50)
+image4Room2.rotateY(Math.PI / 2)
+image4Room2.position.set(5.15,2.2,20.6)
+scene.add(image4Room2)
 
-const image5Room2 = new OBJLoader().load(blackFramePath,(obj) => {})
 
-const image6Room2 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image5Room2 =  new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room2/5.Y dược học Ấn Độ cổ đại.jpg'),
+    side :  backside
+}))
+image5Room2.scale.set(3.9,3.2,50)
+image5Room2.position.set(2.3,2.6,21.8)
+scene.add(image5Room2)
 
-const image7Room2 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image6Room2 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room2/6. Công trình kiến trúc Hồi giáo nổi bật_tháp Mina.jpg'),
+}))
+image6Room2.scale.set(2.9,2.2,50)
+image6Room2.position.set(1.4,2.6,8.5)
+scene.add(image6Room2)
 
-const image8Room2 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image7Room2 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room2/7. Toán học.jpg'),
+}))
+image7Room2.scale.set(2.9,2.2,50)
+image7Room2.position.set(-3.2,2.6,8.5)
+scene.add(image7Room2)
 
-const image9Room2 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image8Room2 =  new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room1/8.Thành tựu khoa học của người Ai Cập cổ đại.jpg'),
+    side :  backside
+}))
+image8Room2.scale.set(2.4,1.8,50)
+image8Room2.rotateY(Math.PI * 2)
+image8Room2.position.set(9.8,2.6,17.8)
+scene.add(image8Room2)
+
+const image9Room2 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room1/9.Tượng Xphanh (Nhân sư).jpg'),
+    side :  backside
+}))
+image9Room1.scale.set(2.4,1.8,50)
+image9Room1.rotateY(Math.PI * 2)
+image9Room1.position.set(12.6,2.6,17.8)
+scene.add(image9Room1)
 
 const image10Room2 = new OBJLoader().load(blackFramePath,(obj) => {})
 
