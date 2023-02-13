@@ -760,19 +760,38 @@ image8Room2.position.set(9.8,2.6,17.8)
 scene.add(image8Room2)
 
 const image9Room2 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
-    map: new TextureLoader().load('object/picture/room1/9.Tượng Xphanh (Nhân sư).jpg'),
+    map: new TextureLoader().load('object/picture/room2/9. Pháo đài Đỏ_La Ki - la.png'),
     side :  backside
 }))
-image9Room1.scale.set(2.4,1.8,50)
-image9Room1.rotateY(Math.PI * 2)
-image9Room1.position.set(12.6,2.6,17.8)
-scene.add(image9Room1)
+image9Room2.scale.set(2.4,1.8,50)
+image9Room2.rotateY(Math.PI * 2)
+image9Room2.position.set(-2.2,2.6,17.8)
+scene.add(image9Room2)
 
-const image10Room2 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image10Room2 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room2/10.Lăng Ta - giơ Ma - tan.jpg'),
+}))
+image10Room2.scale.set(6.9,3.2,50)
+image10Room2.rotateY(Math.PI / 2)
+image10Room2.position.set(-7,2.6,13.2)
+scene.add(image10Room2)
 
-const image11Room2 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image11Room2 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room2/11. Triết học.jpg'),
+}))
+image11Room2.scale.set(3.9,3.2,50)
+image11Room2.rotateY(Math.PI / 2)
+image11Room2.position.set(-0.6,2.6,20.1)
+scene.add(image11Room2)
 
-const image12Room2 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image12Room2 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room2/12.Thành phố Ha - ráp - pa.jpg'),
+    side :  backside
+}))
+image12Room2.scale.set(2.4,1.8,50)
+image12Room2.rotateY(Math.PI * 2)
+image12Room2.position.set(-5.5,2.6,17.8)
+scene.add(image12Room2)
 //===============================================Room3============================================
 const nameFrameLoaderRoom3 = new OBJLoader().load(frameNormalPath,(obj) => {
     obj.scale.setScalar(0.001)
@@ -781,27 +800,95 @@ const nameFrameLoaderRoom3 = new OBJLoader().load(frameNormalPath,(obj) => {
     scene.add(obj)
 }); 
 
-const image1Room4 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image1Room3 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room3/1.In ấn.jpg'),
+}))
+image1Room3.scale.set(1.6,1.6,50)
+image1Room3.position.set(-5.6,2.2,-8.1)
+scene.add(image1Room3)
 
-const image2Room3 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image2Room3 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room3/.jpg'),
+}))
+image2Room3.scale.set(1.7,1.2,50)
+image2Room3.rotateY(Math.PI / 2)
+image2Room3.position.set(-3.9,2.2,-10.3)
+scene.add(image2Room3)
 
-const image3Room3 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image3Room3 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room3/.jpg'),
+}))
+image3Room3.scale.set(1.7,1.2,50)
+image3Room3.rotateY(Math.PI / 2)
+image3Room3.position.set(-3.9,2.2,-12.7)
+scene.add(image3Room3)
 
-const image4Room3 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image4Room3 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room3/.jpg'),
+}))
+image4Room3.scale.set(1.7,1.2,50)
+image4Room3.rotateY(Math.PI / 2)
+image4Room3.position.set(-3.9,2.2,-15.1)
+scene.add(image4Room3)
 
-const image5Room3 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image5Room3 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room3/.jpg'),
+}))
+image5Room3.scale.set(3.9,3.2,50)
+image5Room3.position.set(-1,2.2,-17.1)
+scene.add(image5Room3)
 
-const image6Room3 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image6Room3 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room3/1.In ấn.jpg'),
+    side: backside
+}))
+image6Room3.scale.set(3.2,2.8,50)
+image6Room3.rotateY(Math.PI / 2)
+image6Room3.position.set(1.6,2.2,-15)
+scene.add(image6Room3)
 
-const image7Room3 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image7Room3 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room3/1.In ấn.jpg'),
+}))
+image7Room3.scale.set(2.4,1.8,50)
+image7Room3.position.set(3.5,2.2,-12.8)
+scene.add(image7Room3)
 
-const image8Room3 = new OBJLoader().load(blackFramePath,(obj) => {})
 
-const image9Room3 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image8Room3 =  new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room3/1.In ấn.jpg'),
+}))
+image8Room3.scale.set(2.4,1.8,50)
+image8Room3.position.set(6.6,2.2,-12.8)
+scene.add(image8Room3)
 
-const image10Room3 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image9Room3 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room3/1.In ấn.jpg'),
+    side: backside
+}))
+image9Room3.scale.set(2.4,1.8,50)
+image9Room3.rotateY(Math.PI / 2)
+image9Room3.position.set(8,2.2,-10.5)
+scene.add(image9Room3)
 
-const image11Room3 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image10Room3 =  new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+    map: new TextureLoader().load('object/picture/room3/1.In ấn.jpg'),
+    side: backside
+}))
+image10Room3.scale.set(2.4,1.8,50)
+image10Room3.rotateY(Math.PI / 2)
+image10Room3.position.set(7.6,2.2,-5.8)
+scene.add(image10Room3)
+
+
+// const image11Room3 = new Mesh(new PlaneGeometry(),new MeshBasicMaterial({
+//     map: new TextureLoader().load('object/picture/room3/1.In ấn.jpg'),
+// }))
+// image11Room3.scale.set(2.4,1.8,50)
+// image11Room3.rotateY(Math.PI / 10)
+// image11Room3.position.set(5.6,2.2,-3.3)
+// scene.add(image11Room3)
+
 
 const image12Room3 = new OBJLoader().load(blackFramePath,(obj) => {})
 
@@ -814,7 +901,7 @@ const nameFrameLoaderRoom4 = new OBJLoader().load(frameNormalPath,(obj) => {
 }); 
 
 
-const image1Room3 = new OBJLoader().load(blackFramePath,(obj) => {})
+const image1Room4 = new OBJLoader().load(blackFramePath,(obj) => {})
 
 const image2Room4 = new OBJLoader().load(blackFramePath,(obj) => {})
 
